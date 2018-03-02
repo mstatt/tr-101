@@ -19,7 +19,7 @@ What can they do?
 6) Autoprefixes css
 7) HTML cleanup
 
-Set up your directory structure as follows:
+# Set up your directory structure as follows:
 ****************************************************
 Project Folder(TR-101)
 
@@ -39,9 +39,9 @@ Project Folder(TR-101)
 
 --assets
 
-
 *** ">>" means run this from the command terminal without the ">>" ***
 
+# Some introduction
 Install NODE.JS:
 ****************************************************
 -- Install Node:
@@ -64,7 +64,7 @@ http://nodejs.org
 --The gulp-uglify plug-in to concat and compress js files.
 --The run-sequence plug-in to run sequential commands.
 
-
+# Install
 Here are all of the commands to run(once Node is installed):
 
 (Open a command prompt and navigate to the project directory)
@@ -155,6 +155,7 @@ console.log('Completed publishing production files..............');
 ******************** Above this line****************
 --Save the gulp file.
 
+# Run
 ************************************************
 
 --Open the index.html file in the dev directory.
