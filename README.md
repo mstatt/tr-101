@@ -1,7 +1,5 @@
-# tr-101
+# Task Runners 101:
 
-Task Runners 101:
-**********************
 1st things 1st, I use the term solutions developer, because thats what developers are expected to provide.
 IMO the best devs are the really lazy ones because they understand the following “Keep it DRY” or ” Don’t Repeat Yourself”.
 If you encounter the same issue twice there had better not be a 3rd unless a process is being developed to alleviate it!
