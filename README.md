@@ -78,15 +78,24 @@ Here are all of the commands to run(once Node is installed):
 Now open your gulpfile.js with a text editor (Ensure that the following is included):
 ******************** Below this line****************
 //Plugins and requires
+
 var gulp = require('gulp');
+
 var bump = require('gulp-bump');
+
 var clean = require('gulp-clean');
+
 var runSequence = require('run-sequence');
+
 var clearlines = require('gulp-remove-empty-lines');
 
+
 //Set up Paths
+
 var DEV_PATH = 'dev/';
+
 var TEST_PATH = 'test/';
+
 var PROD_PATH = 'prod/';
 
 
