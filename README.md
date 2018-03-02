@@ -201,7 +201,7 @@ console.log('Completed publishing production files..............');
 
 ************************************************
 ####Extra npm commands:
--Remove unused packages
+-Remove unused packages from the directory to keep things lean.
 
 npm prune
 
