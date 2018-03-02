@@ -68,10 +68,11 @@ http://nodejs.org
 Here are all of the commands to run(once Node is installed):
 
 (Open a command prompt and navigate to the project directory)
+
+********************** Command to install npm **********************
 >>npm install
 
-//----------Single line command to install all plugins-------------//
-
+********************** Single line command to install all plugins ***************
 >>npm install gulp gulp-htmlclean gulp-clean-css gulp-concat gulp-uglify run-sequence gulp-bump del gulp-remove-empty-lines --save-dev
 
 Now open your gulpfile.js with a text editor (Ensure that the following is included):
