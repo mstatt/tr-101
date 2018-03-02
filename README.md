@@ -22,13 +22,21 @@ What can they do?
 Set up your directory structure as follows:
 ****************************************************
 Project Folder(TR-101)
+
 -test
+
 -prod
+
 -dev
+
 --index.html
+
 --css
+
 --js
+
 --img
+
 --assets
 
 
