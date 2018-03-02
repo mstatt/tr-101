@@ -174,6 +174,11 @@ console.log('Completed publishing production files..............');
 --Now open the package.json file in the project directory with a text editor.
 --Notice that version # has been incremented.
 
+**********************Run the following command in the terminal***************
+>>gulp publishprod
+
+--Now all of the files from the test directory are in the production folder ready fr deployment.
+
 ************************************************
 ####Extra npm commands:
 -Remove unused packages
