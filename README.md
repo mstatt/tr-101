@@ -115,7 +115,6 @@ console.log('Completed publishing test files..............');
 --Save the gulp file.
 
 ************************************************
->>gulp publishtest
 
 --Open the index.html file in the dev directory.
 --Notice the comments and empty lines
