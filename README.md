@@ -1,4 +1,7 @@
 # tr-101
+
+Task Runners 101:
+**********************
 1st things 1st, I use the term solutions developer, because thats what developers are expected to provide.
 IMO the best devs are the really lazy ones because they understand the following “Keep it DRY” or ” Don’t Repeat Yourself”.
 If you encounter the same issue twice there had better not be a 3rd unless a process is being developed to alleviate it!
@@ -20,7 +23,6 @@ What can they do?
 7) HTML cleanup
 
 # Set up your directory structure as follows:
-****************************************************
 Project Folder(TR-101)
 
 -test
@@ -43,12 +45,10 @@ Project Folder(TR-101)
 
 # Some introduction
 Install NODE.JS:
-****************************************************
 -- Install Node:
 http://nodejs.org
 
---CMD to the working directory:
---open a command prompt and navigate to your project directory
+--Open a command prompt and navigate to your project directory
 ##--npm install
 -Initialize npm (You can skip this as you already have the package.json file)
 ##--npm init 
