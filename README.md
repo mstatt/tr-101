@@ -40,7 +40,7 @@ http://nodejs.org
 
 --CMD to the working directory:
 --open a command prompt and navigate to your project directory
-npm install
+##--npm install
 -Initialize npm (You can skip this as you already have the package.json file)
 ##--npm init 
 **(You can answer the questions asked, if you do not know the answer just hit the enter key)**
@@ -60,7 +60,8 @@ Here are all of the commands to run:
 once Node is installed.
 (open a command prompt and navigate to the project directory)
 >>npm install
-//----------Single line command to install all plugins-------------
+//----------Single line command to install all plugins-------------//
+
 >>npm install gulp gulp-htmlclean gulp-clean-css gulp-concat gulp-uglify run-sequence gulp-bump del gulp-remove-empty-lines --save-dev
 
 Now open your gulpfile.js with a text editor (Ensure that the following is included):
