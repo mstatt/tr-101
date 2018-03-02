@@ -9,6 +9,7 @@ What are the main ones?
 Brunch.js, Gulp.js, Broccoli.js, Cake.js, Grunt.js
 
 What can they do?
+
 0) Live page reloads during development.
 1) Image compression
 2) File reduction
