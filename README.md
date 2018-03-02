@@ -56,10 +56,11 @@ http://nodejs.org
 --The run-sequence plug-in to run sequential commands.
 
 
-Here are all of the commands to run:
-once Node is installed.
-(open a command prompt and navigate to the project directory)
+Here are all of the commands to run(once Node is installed):
+
+(Open a command prompt and navigate to the project directory)
 >>npm install
+
 //----------Single line command to install all plugins-------------//
 
 >>npm install gulp gulp-htmlclean gulp-clean-css gulp-concat gulp-uglify run-sequence gulp-bump del gulp-remove-empty-lines --save-dev
