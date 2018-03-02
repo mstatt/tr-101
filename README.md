@@ -100,6 +100,7 @@ var PROD_PATH = 'prod/';
 
 
 //Clean Test Directories
+
 gulp.task('cleantest', function () {
   console.log('Cleaning Up files and directories');
     return gulp.src(TEST_PATH, {read: false})
@@ -107,6 +108,7 @@ gulp.task('cleantest', function () {
 });
 
 //Clean Prod Directories
+
 gulp.task('cleanprod', function () {
   console.log('Cleaning Up files and directories');
     return gulp.src(PROD_PATH, {read: false})
@@ -114,6 +116,7 @@ gulp.task('cleanprod', function () {
 });
 
 //Build the test directory structure and files
+
 gulp.task('buildtest', function() {
   console.log('Building test directory');
   return gulp.src(DEV_PATH + '**/*')
@@ -121,7 +124,8 @@ gulp.task('buildtest', function() {
 });
 
 
-////Build the prod directory structure and files from test
+//Build the prod directory structure and files from test
+
 gulp.task('buildprod', function() {
   console.log('Building production directory');
   return gulp.src(TEST_PATH + '**/*')
@@ -129,6 +133,7 @@ gulp.task('buildprod', function() {
 });
 
 //Clean up Html
+
 gulp.task('indexcleanup', function () {
   console.log('Cleaning up index.html.');
   gulp.src(TEST_PATH + 'index.html')
@@ -139,6 +144,7 @@ gulp.task('indexcleanup', function () {
 });
 
 //Update the version in package.json
+
 gulp.task("bump", function () {
   console.log('Updating the buid version.');
     return gulp.src("./package.json")
@@ -147,7 +153,9 @@ gulp.task("bump", function () {
 });
 
 //In sequence build the test directory, clean up index.html and update version # in the package.json
+
 //publishtest
+
 gulp.task('publishtest',function (){
 console.log('Starting to Publish test files..............');
 runSequence('cleantest','buildtest','indexcleanup','bump');
@@ -155,7 +163,9 @@ console.log('Completed publishing test files..............');
 });
 
 //Publish files from test to prod
+
 //publishprod
+
 gulp.task('publishprod',function (){
 console.log('Starting to Publish production files..............');
 runSequence('cleanprod','buildprod');
