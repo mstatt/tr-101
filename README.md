@@ -20,7 +20,9 @@ What can they do?
 4) Push to git
 5) FTP up to a server
 6) Autoprefixes css
-7) HTML cleanup
+7) HTML cleanup/optimization
+
+We are going to be installing and using gulp.js for a quick example of html page optimization.
 
 # Set up your directory structure as follows:
 Project Folder(TR-101)
