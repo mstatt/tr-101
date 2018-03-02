@@ -1,7 +1,7 @@
 //Plugins and requires
 var gulp = require('gulp');
 var bump = require('gulp-bump');
- clean = require('gulp-clean');
+var clean = require('gulp-clean');
 var runSequence = require('run-sequence');
 var clearlines = require('gulp-remove-empty-lines');
 
