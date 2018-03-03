@@ -108,5 +108,12 @@ Here are all of the commands to run(once Node is installed):
 
 
 ************************************************
+Part II: (Javascript File management)
+
+https://github.com/mstatt/tr-102
+************************************************
+
+
+
 Helpful Link:
 https://gist.github.com/renarsvilnis/ab8581049a3efe4d03d8
