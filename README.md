@@ -22,7 +22,7 @@ What can they do?
 
 We are going to be installing and using gulp.js for a quick example of html page optimization.
 
-# Set up your directory structure as follows:
+# TR-101 dev directory structure as follows:
 Project Folder(TR-101)
 
 -test
