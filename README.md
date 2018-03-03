@@ -197,7 +197,7 @@ console.log('Completed publishing production files..............');
 **********************Run the following command in the terminal***************
 >>gulp publishprod
 
---Now all of the files from the test directory are in the production folder ready fr deployment.
+--Now all of the files from the test directory are in the production folder ready for deployment.
 
 ************************************************
 ####Extra npm commands:
