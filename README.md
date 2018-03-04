@@ -11,14 +11,17 @@ Brunch.js, Gulp.js, Broccoli.js, Cake.js, Grunt.js
 
 What can they do?
 
-0) Live page reloads during development.
-1) Image compression
-2) File reduction
-3) File compression
-4) Push to git
-5) FTP up to a server
-6) Autoprefixes css
-7) HTML cleanup/optimization
+1) HTML cleanup/optimization
+2) JavaScript obfuscation
+3) Javascript uglification.
+4) Live page reloads
+5) CSS purification/minification
+6) CSS autoprefixing 
+7) File concatenation
+8) Directory management
+9) Image Compression
+10) Push to Github
+11) FTP to server
 
 We are going to be installing and using gulp.js for a quick example of html page optimization.
 
@@ -108,9 +111,18 @@ Here are all of the commands to run(once Node is installed):
 
 
 ************************************************
-Part II: (Javascript File management)
+
+Part II: (Javascript Obfuscation)
 
 https://github.com/mstatt/tr-102
+
+Part III: (Live reload)
+
+https://github.com/mstatt/tr-103
+
+Part IV: (CSS File management)
+
+https://github.com/mstatt/tr-104
 ************************************************
 
 
