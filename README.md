@@ -22,6 +22,7 @@ What can they do?
 9) Image Compression
 10) Push to Github
 11) FTP to server
+12) and so much more to speed up and optimize your develpment pipeline.
 
 We are going to be installing and using gulp.js for a quick example of html page optimization.
 
