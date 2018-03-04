@@ -4,7 +4,7 @@
 IMO the best devs are the really lazy ones because they understand the following “Keep it DRY” or ” Don’t Repeat Yourself”.
 If you encounter the same issue twice there had better not be a 3rd unless a process is being developed to alleviate it! Non-functional requirements and processes are the largest unnacounted for cause in project delays, cost over-runs and the leading cause of IT project scope creep. As an solutions developer it is your job to plan for and architecht solutions that mitigate this as much as possible.
 
-Thats where task runners come in to help streamline processes, to run repetitive tasks faster, cleaner and cheaper.
+Thats where task runners come in to help streamline processes, to run repetitive tasks faster, cleaner and cheaper. Task runners are toolkits that help you automate painful or time-consuming tasks in your development workflow. Platform-agnostic - Integrations are built into all major IDEs and people are using TR's with PHP, .NET, Node.js, Java, and other platforms.
 
 What are the main ones?
 Brunch.js, Gulp.js, Broccoli.js, Cake.js, Grunt.js
