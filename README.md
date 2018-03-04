@@ -13,7 +13,7 @@ What can they do?
 
 1) HTML cleanup/optimization
 2) JavaScript obfuscation
-3) Javascript uglification.
+3) JavaScript uglification.
 4) Live page reloads
 5) CSS purification/minification
 6) CSS autoprefixing 
@@ -28,21 +28,20 @@ We are going to be installing and using gulp.js for a quick example of html page
 # TR-101 dev directory structure as follows:
 Project Folder(TR-101)
 
--test
+tr-101/
 
--prod
+|- dev/
 
--dev
+   |- index.html
+   
+gulpfile.js
 
---index.html
+README.md
 
---css
+package.json
 
---js
+package-lock.json
 
---img
-
---assets
 
 *** ">>" means run this from the command terminal without the ">>" ***
 
