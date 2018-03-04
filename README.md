@@ -14,15 +14,17 @@ What can they do?
 1) HTML cleanup/optimization
 2) JavaScript obfuscation
 3) JavaScript uglification.
-4) Live page reloads
-5) CSS purification/minification
-6) CSS autoprefixing 
-7) File concatenation
-8) Directory management
-9) Image Compression
-10) Push to Github
-11) FTP to server
-12) and so much more to speed up and optimize your develpment pipeline.
+4) Evaluates JavaScript files for syntax errors and formatting issues
+5) Live page reloads
+6) CSS purification/minification
+7) CSS autoprefixing 
+8) File concatenation
+9) Directory management
+10) Image Compression
+11) Push to Github
+12) FTP to server
+13) Generating sourcemaps.
+14) and so much more to speed up and optimize your develpment pipeline.
 
 We are going to be installing and using gulp.js for a quick example of html page optimization.
 
