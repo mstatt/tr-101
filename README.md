@@ -64,7 +64,7 @@ http://nodejs.org
 --This is a list of dependencies that you need only for developing the package.
 --Add task plug-ins
 --The htmlclean plug-in cleans all comments out of your templates by default.
---The htmlclean plug-in to minify CSS
+--The gulp-htmlmin plug-in to minify html
 --This will concat files by your operating systems newLine.
 --The gulp-uglify plug-in to concat and compress js files.
 --The run-sequence plug-in to run sequential commands.
@@ -78,7 +78,7 @@ Here are all of the commands to run(once Node is installed):
 >>npm install
 
 ********************** Single line command to install all plugins ***************
->>npm install gulp gulp-htmlclean gulp-clean-css gulp-concat gulp-uglify run-sequence gulp-bump del gulp-remove-empty-lines gulp-clean --save-dev
+>>npm install gulp gulp-htmlclean gulp-clean-css gulp-concat gulp-uglify run-sequence gulp-bump del gulp-remove-empty-lines gulp-clean gulp-htmlmin --save-dev
 
 # Run
 ************************************************
@@ -96,6 +96,7 @@ Here are all of the commands to run(once Node is installed):
 
 --Now open the index.html file in the test directory with a text editor.
 --Notice that there are no blanklines or comments.
+--Notice that the contents are minified.
 
 --Now open the package.json file in the project directory with a text editor.
 --Notice that version # has been incremented.
