@@ -11,16 +11,16 @@ Brunch.js, Gulp.js, Broccoli.js, Cake.js, Grunt.js
 
 What can they do?
 
-1) HTML cleanup/optimization
-2) JavaScript obfuscation
-3) JavaScript uglification.
+1) HTML cleanup/optimization (Speed up page loads)
+2) JavaScript obfuscation (Base level security and speed up page loads)
+3) JavaScript uglification. (Speed up page loads)
 4) Evaluates JavaScript files for syntax errors and formatting issues
 5) Live page reloads
-6) CSS purification/minification
+6) CSS purification/minification (Speed up page loads)
 7) CSS autoprefixing 
 8) File concatenation
 9) Directory management
-10) Image Compression
+10) Image Compression (Speed up page loads)
 11) Push to Github
 12) FTP to server
 13) Generating sourcemaps.
