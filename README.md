@@ -94,7 +94,7 @@ Here are all of the commands to run(once Node is installed):
 >>gulp publishtest
 
 
---Now open the index.html file in the test directory with a text editor.
+--Now open the test/index.html file with a text editor.
 --Notice that there are no blanklines or comments.
 --Notice that the contents are minified.
 
