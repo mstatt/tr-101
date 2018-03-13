@@ -131,6 +131,10 @@ https://github.com/mstatt/tr-103
 Part IV: (CSS File management)
 
 https://github.com/mstatt/tr-104
+
+Part V: (Image Compression)
+
+https://github.com/mstatt/tr-105
 ************************************************
 
 
